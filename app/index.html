@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+<title>Oenohelper</title>
+<link rel="stylesheet" type="text/css" href="wine.css">
+</head>
+<body background="http://www.hiwallpaperson.com/wp-content/uploads/2015/05/green-vineyard-picture.jpg">
+  <div id="intro">
+    <p> Sometimes it's just exhausting trying to figure out what wine to drink. The names, the grapes, the styles- it's all too much. Well, with this handy-dandy wine app, you don't have to think anymore. Just drink.</p>
+    <p> If you like, feel free to make a few suggestions an improve the suggestion engine. Otherwise, request a wine and get down to drinkin'.</p>
+  </div>
+  <div id="main">
+    <form id="submitRegion">
+      <label for="user-region"></label>
+      <input type="text" name="region" id="user-region" placeholder="Region">
+    </form>
+    <form id="submitType">
+      <label for="user-type"></label>
+      <input type="text" name="type" id="user-type" placeholder="Type">
+    </form>
+    <form id="submitGrape">
+      <label for="user-grape"></label>
+      <input type="text" name="grape" id="user-grape" placeholder="Grape">
+    </form>
+  </div>
+  <div id="buttonWrap">
+    <button id="suggest"> <em>Add your suggestions</em> </button>
+    <button id="drink"> <em>What are we drinking tonight?</em> </button>
+  </div>
+  <div id="addWrap">
+    <p id="regionRes"></p>
+    <p id="typeRes"></p>
+    <p id="grapeRes"></p>
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
