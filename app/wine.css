@@ -1,0 +1,46 @@
+#main {
+  display: inline;
+  width: 50%;
+  text-align: center;
+  display: inline;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+#buttonWrap {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-top: 1em
+}
+
+#intro {
+  width: 40%;
+  margin: 0 auto;
+  color: white;
+  font-style: helvetica;
+  font-size: 24px;
+}
+
+#result {
+  text-align: center;
+  color: white;
+  font-style: helvetica;
+  font-size: 24px;
+}
+
+#addWrap {
+  text-align: center;
+  color: white;
+  font-style: helvetica;
+  font-size: 14px;
+}
+
+input[type="text"] {
+  width: 12%;
+  padding: 5px;
+  transition: border 0.3s;
+  padding-bottom: 1%;
+  font-size: 20px;
+}
