@@ -1,6 +1,6 @@
 'use strict';
 
-var Type = function(){
+var Type = function() {
   this.Red = true;
   this.White = true;
   this.Rose = true;

@@ -1,15 +1,14 @@
-
-'use strict'
+'use strict';
 
 module.exports = function postWord(word, object) {
 
-  if(object.hasOwnProperty(word)) {
+  if (object.hasOwnProperty(word)) {
 
-    return {msg: 'word already exists' };
+    return {msg: 'We already have ' + word + ' in the hopper.' };
   }
 
   else {
     object[word] = true;
-    return {msg: 'word ' + word + ' accepted!' };
+    return {msg: 'That\'s a great one! We\'ll add ' + word + ' to our selections.' };
   }
 };

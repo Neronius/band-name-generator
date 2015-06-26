@@ -1,6 +1,6 @@
 'use strict';
 
-var Region = function(){
+var Region = function() {
   this.Napa = true;
   this.Bordeaux = true;
   this.Rhone = true;

@@ -1,6 +1,6 @@
 'use strict';
 
-var Grape = function(){
+var Grape = function() {
   this.Merlot = true;
   this.Chardonnay = true;
   this.Cabernet = true;
